@@ -1,10 +1,7 @@
 package org.maoge.pattern.p03;
 
 /**
- * ָ�Ӱ೤
- * 
- * @author Administrator
- *
+ * 指挥者
  */
 public class Director {
 	public IotMeter makeIotMeter(IBuilder builder) {

@@ -1,7 +1,7 @@
 package org.maoge.pattern.p03;
 
 /**
- * ½¨Ôì½Ó¿Ú--½¨ÔìÕßÄ£Ê½
+ * å»ºé€ æ¥å£--å»ºé€ è€…æ¨¡å¼
  */
 public interface IBuilder {
 	public void buildBasic();

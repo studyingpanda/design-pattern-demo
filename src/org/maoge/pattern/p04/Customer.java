@@ -1,7 +1,7 @@
 package org.maoge.pattern.p04;
 
 /**
- * ÏúÊÛÔ±
+ * å®¢æˆ·ç±»
  */
 public class Customer {
 	public static void main(String[] args) {

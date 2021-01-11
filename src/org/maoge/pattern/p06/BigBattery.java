@@ -1,10 +1,10 @@
 package org.maoge.pattern.p06;
 
 /**
- * ´óÈİÁ¿µç³Ø
+ * å¤§å®¹é‡ç”µæ± 
  */
 public class BigBattery implements IBattery {
 	public BigBattery() {
-		System.out.println("´óÈİÁ¿µç³Ø");
+		System.out.println("å¤§å®¹é‡ç”µæ± ");
 	}
 }

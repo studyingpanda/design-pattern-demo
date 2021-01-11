@@ -1,7 +1,7 @@
 package org.maoge.pattern.p04;
 
 /**
- * ³µ¼ä
+ * è½¦é—´ç±»
  */
 public class Workshop {
 	public static IMeter produceMeter(MeterTypeEnum meterTypeEnum) {

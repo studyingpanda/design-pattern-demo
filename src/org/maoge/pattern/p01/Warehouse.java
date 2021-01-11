@@ -1,7 +1,7 @@
 package org.maoge.pattern.p01;
 
 /**
- * ²Ö¿âÀà--²ÉÓÃµ¥ÀıÄ£Ê½Éè¼Æ£¬±£Ö¤Ö»ÓĞÒ»¸öÊµÀı
+ * ä»“åº“ç±»--å•ä¾‹æ¨¡å¼
  */
 public class Warehouse {
 	private static Warehouse warehouse = new Warehouse();
@@ -17,7 +17,6 @@ public class Warehouse {
 	public static void main(String[] args) {
 		Warehouse w1 = Warehouse.getInstance();
 		Warehouse w2 = Warehouse.getInstance();
-		// ²»ÂÛÈçºÎ»ñÈ¡£¬Ö»ÓĞÒ»¸öÊµÀı
 		System.out.println(w1 == w2);
 	}
 }

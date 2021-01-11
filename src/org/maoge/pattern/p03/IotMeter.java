@@ -1,7 +1,7 @@
 package org.maoge.pattern.p03;
 
 /**
- * ÎïÁªÍø±í
+ * ç‰©è”ç½‘ä»ªè¡¨
  */
 public class IotMeter {
 

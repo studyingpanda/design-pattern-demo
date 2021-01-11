@@ -1,10 +1,10 @@
 package org.maoge.pattern.p06;
 
 /**
- * 金属基表
+ * 閲戝睘鍩鸿〃
  */
 public class MetalBasic implements IBasic {
 	public MetalBasic() {
-		System.out.println("金属基表");
+		System.out.println("閲戝睘鍩鸿〃");
 	}
 }

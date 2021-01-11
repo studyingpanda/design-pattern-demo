@@ -1,32 +1,24 @@
 package org.maoge.pattern.p02;
 
 /**
- * ÔªÆ÷¼ş--Ô­ĞÍÄ£Ê½£¬±£Ö¤¸´ÖÆÆ·¶¼Ò»Ä£Ò»Ñù
+ * ç»„ä»¶ç±»--åŸå‹æ¨¡å¼
  */
 public class Component implements Cloneable {
-	/**
-	 * Ãû³Æ
-	 */
 	private String name;
-	/**
-	 * ³¤¶È
-	 */
 	private double length;
-	/**
-	 * ¿í¶È
-	 */
 	private double width;
 
-	/**
-	 * Õ¹Ê¾
-	 */
 	public void display() {
-		System.out.printf("²úÆ·Ãû³Æ:%s,³¤¶È:%s,¿í¶È:%s;\n", name, length, width);
+		System.out.printf("åç§°:%s,é•¿åº¦:%s,å®½åº¦:%s;\n", name, length, width);
+	}
+
+	public Object clone() throws CloneNotSupportedException {
+		return (Component) super.clone();
 	}
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Component component1 = new Component();
-		component1.setName("±ê×¼¼şC01");
+		component1.setName("æ ‡å‡†ä»¶C01");
 		component1.setLength(100);
 		component1.setWidth(80);
 		component1.display();

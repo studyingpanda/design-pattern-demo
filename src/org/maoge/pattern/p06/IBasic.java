@@ -1,7 +1,7 @@
 package org.maoge.pattern.p06;
 
 /**
- * 基表接口
+ * 鍩鸿〃鎺ュ彛
  */
 public interface IBasic {
 

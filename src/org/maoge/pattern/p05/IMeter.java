@@ -1,11 +1,11 @@
 package org.maoge.pattern.p05;
 
 /**
- * ÒÇ±í²úÆ·½Ó¿Ú--¼òµ¥¹¤³§Ä£Ê½
+ * è¡¨æ¥å£
  */
 public interface IMeter {
 	/**
-	 * »ñÈ¡¶ÁÊı
+	 * è·å–è¯»æ•°
 	 */
 	public void read();
 }

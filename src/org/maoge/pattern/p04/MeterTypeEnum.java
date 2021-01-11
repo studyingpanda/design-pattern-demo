@@ -1,7 +1,7 @@
 package org.maoge.pattern.p04;
 
 /**
- * ±íÀàĞÍÃ¶¾Ù
+ * è¡¨ç±»å‹æšä¸¾
  */
 public enum MeterTypeEnum {
 	WATER_METER, GAS_METER;

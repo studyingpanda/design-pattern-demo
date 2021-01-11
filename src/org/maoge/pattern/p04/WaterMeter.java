@@ -1,14 +1,14 @@
 package org.maoge.pattern.p04;
 
 /**
- * Ë®±í
+ * æ°´è¡¨
  */
 public class WaterMeter implements IMeter {
 	private double num;
 
 	@Override
 	public void read() {
-		System.out.println("Ë®±í¶ÁÊýÎª" + num);
+		System.out.println("æ°´è¡¨è¯»æ•°ï¼š" + num);
 	}
-	
+
 }

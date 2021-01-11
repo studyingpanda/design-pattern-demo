@@ -1,14 +1,14 @@
 package org.maoge.pattern.p05;
 
 /**
- * 水表
+ * 姘磋〃
  */
 public class WaterMeter implements IMeter {
 	private double num;
 
 	@Override
 	public void read() {
-		System.out.println("水表读数为" + num);
+		System.out.println("姘磋〃璇绘暟" + num);
 	}
 	
 }

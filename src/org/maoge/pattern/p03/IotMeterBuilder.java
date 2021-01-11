@@ -1,5 +1,8 @@
 package org.maoge.pattern.p03;
 
+/**
+ * å…·ä½“å»ºé€ è€…
+ */
 public class IotMeterBuilder implements IBuilder {
 	private IotMeter iotMeter;
 
@@ -9,17 +12,17 @@ public class IotMeterBuilder implements IBuilder {
 
 	@Override
 	public void buildBasic() {
-		iotMeter.setBasic("×°Åä»ù±í");
+		iotMeter.setBasic("è£…å¤‡åŸºè¡¨");
 	}
 
 	@Override
 	public void buildBattery() {
-		iotMeter.setBattery("×°Åäµç³Ø");
+		iotMeter.setBattery("è£…é…ç”µæ± ");
 	}
 
 	@Override
 	public void buildConnection() {
-		iotMeter.setConnection("×°ÅäÍ¨Ñ¶Ä£¿é");
+		iotMeter.setConnection("è£…é…ç½‘ç»œæ¨¡å—");
 	}
 
 	@Override

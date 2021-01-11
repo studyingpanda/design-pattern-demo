@@ -1,7 +1,7 @@
 package org.maoge.pattern.p05;
 
 /**
- * 水表生产车间
+ * 姘磋〃鐢熶骇杞﹂棿
  */
 public class WaterWorkshop implements IWorkshop {
 

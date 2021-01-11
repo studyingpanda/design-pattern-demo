@@ -1,13 +1,13 @@
 package org.maoge.pattern.p05;
 
 /**
- * È¼Æø±í
+ * ç‡ƒæ°”è¡¨
  */
 public class GasMeter implements IMeter {
 	private double num;
 
 	@Override
 	public void read() {
-		System.out.println("È¼Æø±í¶ÁÊýÎª" + num);
+		System.out.println("ç‡ƒæ°”è¡¨è¯»æ•°ï¼š" + num);
 	}
 }

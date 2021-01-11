@@ -1,8 +1,8 @@
 package org.maoge.pattern.p06;
 
 /**
- * ��ؽӿ�
+ * 电池接口
  */
 public interface IBattery {
-	
-}	
+
+}

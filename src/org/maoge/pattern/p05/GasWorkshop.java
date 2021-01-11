@@ -1,7 +1,7 @@
 package org.maoge.pattern.p05;
 
 /**
- * È¼Æø±íÉú²ú³µ¼ä
+ * ç‡ƒæ°”è¡¨ç”Ÿäº§è½¦é—´
  */
 public class GasWorkshop implements IWorkshop {
 
