@@ -7,9 +7,9 @@ public class Workshop {
 	public static IMeter produceMeter(MeterTypeEnum meterTypeEnum) {
 		switch (meterTypeEnum) {
 		case WATER_METER:
-			return new WaterMeter();
+			return new WaterMeter("吨", 0.5);
 		case GAS_METER:
-			return new GasMeter();
+			return new GasMeter("m³", 0);
 		}
 		return null;
 	}
